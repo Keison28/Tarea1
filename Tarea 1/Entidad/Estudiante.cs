@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tarea_1.Entidad
 {
-    public class Estudiante
+    public class Estudiante: Persona
     {
         public int Id { get; set; }
         public int matricula { get; set; }
